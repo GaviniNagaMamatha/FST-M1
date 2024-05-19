@@ -6,11 +6,11 @@ public class Activity9 {
     public static void main(String[] args) {
         ArrayList<String> myList = new ArrayList<String>();
 
-        myList.add("Ram");
-        myList.add("Lakshman");
-        myList.add("Bharat");
-        myList.add("Shatrughn");
-        myList.add("Sita");
+        myList.add("India");
+        myList.add("USA");
+        myList.add("Europe");
+        myList.add("China");
+        myList.add("Singapore");
 
 
         for (String s : myList) {
