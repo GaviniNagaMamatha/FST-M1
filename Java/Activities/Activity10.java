@@ -6,11 +6,11 @@ public class Activity10 {
     public static void main(String[] args) {
         HashSet<String> hs = new HashSet<String>();
         // Adding element to HashSet
+        hs.add("M");
         hs.add("A");
-        hs.add("B");
-        hs.add("H");
-        hs.add("I");
-        hs.add("L");
+        hs.add("M");
+        hs.add("A");
+        hs.add("T");
         hs.add("A");
 
         //Print HashSet
