@@ -6,8 +6,8 @@ public class Activity1 {
 
         Car carName = new Car();
 
-        carName.make = 2014;
-        carName.color = "Black";
+        carName.make = 2016;
+        carName.color = "White";
         carName.transmission = "Manual";
 
         carName.displayCharacteristics();
