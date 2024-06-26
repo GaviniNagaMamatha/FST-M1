@@ -17,8 +17,8 @@ import io.restassured.response.Response;
         public void addNewPet() {
             // Create JSON request
             String reqBody = "{"
-                    + "\"id\": 77232,"
-                    + "\"name\": \"Riley\","
+                    + "\"id\": 1632,"
+                    + "\"name\": \"mano\","
                     + " \"status\": \"alive\""
                     + "}";
 
@@ -29,7 +29,7 @@ import io.restassured.response.Response;
 
             // Assertion
             response.then().body("id", equalTo(77232));
-            response.then().body("name", equalTo("Riley"));
+            response.then().body("name", equalTo("Mano"));
             response.then().body("status", equalTo("alive"));
         }
 
@@ -37,12 +37,12 @@ import io.restassured.response.Response;
         public void getPetInfo() {
             Response response =
                     given().contentType(ContentType.JSON) // Set headers
-                            .when().pathParam("petId", "77232") // Set path parameter
+                            .when().pathParam("petId", "1632") // Set path parameter
                             .get(ROOT_URI + "/{petId}"); // Send GET request
 
             // Assertion
-            response.then().body("id", equalTo(77232));
-            response.then().body("name", equalTo("Riley"));
+            response.then().body("id", equalTo(1632));
+            response.then().body("name", equalTo("Mano"));
             response.then().body("status", equalTo("alive"));
         }
 
@@ -50,12 +50,12 @@ import io.restassured.response.Response;
         public void deletePet() {
             Response response =
                     given().contentType(ContentType.JSON) // Set headers
-                            .when().pathParam("petId", "77232") // Set path parameter
+                            .when().pathParam("petId", "1632") // Set path parameter
                             .delete(ROOT_URI + "/{petId}"); // Send DELETE request
 
             // Assertion
             response.then().body("code", equalTo(200));
-            response.then().body("message", equalTo("77232"));
+            response.then().body("message", equalTo("1632"));
         }
     }
 
