@@ -97,7 +97,7 @@
             </con:settings>
             <con:endpoint>https://petstore.swagger.io</con:endpoint>
             <con:request/>
-            <con:originalUri>https://petstore.swagger.io/v2/pet/77232</con:originalUri>
+            <con:originalUri>https://petstore.swagger.io/v2/pet/1601</con:originalUri>
             <con:assertion type="Valid HTTP Status Codes" id="9ca46709-701c-4ad1-8e1c-c36adb6ac9ce" name="Valid HTTP Status Codes">
               <con:settings/>
               <con:configuration>
@@ -246,7 +246,7 @@ From petData</query><fetchSize/><stored-procedure>false</stored-procedure></con:
             </con:settings>
             <con:endpoint>https://petstore.swagger.io</con:endpoint>
             <con:request/>
-            <con:originalUri>https://petstore.swagger.io/v2/pet/77232</con:originalUri>
+            <con:originalUri>https://petstore.swagger.io/v2/pet/1601</con:originalUri>
             <con:assertion type="Valid HTTP Status Codes" id="9ca46709-701c-4ad1-8e1c-c36adb6ac9ce" name="Valid HTTP Status Codes">
               <con:settings/>
               <con:configuration>
@@ -259,7 +259,7 @@ From petData</query><fetchSize/><stored-procedure>false</stored-procedure></con:
             </con:credentials>
             <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
             <con:parameters>
-              <con:entry key="petId" value="77235"/>
+              <con:entry key="petId" value="77275"/>
             </con:parameters>
             <con:parameterOrder>
               <con:entry>petId</con:entry>
