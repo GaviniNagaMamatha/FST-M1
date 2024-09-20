@@ -28,7 +28,7 @@ import io.restassured.response.Response;
                             .when().post(ROOT_URI); // Send POST request
 
             // Assertion
-            response.then().body("id", equalTo(77232));
+            response.then().body("id", equalTo(1632));
             response.then().body("name", equalTo("Mano"));
             response.then().body("status", equalTo("alive"));
         }
